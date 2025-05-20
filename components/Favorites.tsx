@@ -8,7 +8,7 @@ const favorites = [
 
 export default function Favorites() {
   return (
-    <View>
+    <View style={styles.container}>
       <Text style={styles.label}>Your favorite people</Text>
       <View style={styles.row}>
         <View style={styles.avatarContainer}>
@@ -27,6 +27,9 @@ export default function Favorites() {
 }
 
 const styles = StyleSheet.create({
+  container:{
+    marginTop:180,
+  },
   label: {
     fontSize: 16,
     fontWeight: '600',
