@@ -43,7 +43,7 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ color, focused }) => (
             <View style={{ alignItems: 'center' }}>
-              <MaterialIcons name='home' size={24} color="#000"/>
+              <MaterialIcons name='home' size={24} color={color}/>
               {focused && (
                 <View
                   style={{
